@@ -1,0 +1,66 @@
+/* Styling for HTML elements */
+body {
+	padding: 10px;
+	margin: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+  }
+
+
+.jumbotron {
+	background-color: #032656;
+	background-position: center;
+/*	color: #032656; */
+	color: #33FF00;
+	
+}
+h1 {
+	text-align: center;
+	color: white;
+}	
+
+.button {
+	background-color :lightblue;
+	color: #021b3d;
+	cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.column-border {
+	border-radius: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-scroll {
+	height: 400px !important;
+    overflow-y: scroll;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background:lightblue;
+}
+
+tr:nth-child(odd){
+	background-color: lightblue;
+
+}
+
+
+
